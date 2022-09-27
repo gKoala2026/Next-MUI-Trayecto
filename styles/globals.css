@@ -1,0 +1,123 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+/* Custom Gauge */
+.gauge-font {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #333;
+}
+
+/* input[type=date] picker icon hidden */
+::-webkit-calendar-picker-indicator {
+  width: 100%;
+}
+
+/* Custom Datepicker */
+.dateStyle fieldset {
+  border: none !important;
+}
+
+/* Custom BarChart */
+.apexcharts-legend-series {
+  display: none;
+}
+
+.apexcharts-menu-icon {
+  display: none;
+}
+
+/* Align */
+.align-items-start {
+  display: flex;
+  align-items: flex-start;
+}
+
+.align-items-center {
+  display: flex;
+  align-items: center;
+}
+
+.align-items-end {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Font Size */
+.font-16 {
+  font-size: 1rem !important;
+}
+
+.font-18 {
+  font-size: 1.125rem !important;
+}
+
+/* Margin */
+.my-16 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.ml-16 {
+  margin-left: 16px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.text-decoration-red {
+  text-decoration-color: #EB5757;
+}
+
+.text-decoration-gray {
+  text-decoration-color: #828282;
+}
+
+.text-decoration-black {
+  text-decoration-color: #000 !important;
+}
+
+/* Date range picker toggle arrow hidden */
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle {
+  display: none;
+}
+
+.react-datepicker__input-container input {
+  width: 90%;
+}
+
+#chart-wrap {
+  max-width: 650px;
+  position: relative;
+}
+
+#chart {
+  padding-bottom: 30px;
+  max-width: 650px;
+}
+
+.legend {
+  max-width: 650px;
+  left:26%;
+  bottom: 32%;
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  height: 60px;
+}
